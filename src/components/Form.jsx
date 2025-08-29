@@ -1,9 +1,16 @@
-const Form = ({ setShowForm, handleFieldChange, newProduct, addProduct }) => {
+const Form = ({
+  setShowForm,
+  handleFieldChange,
+  newProduct,
+  addProduct,
+  nameInputRef,
+}) => {
   return (
     <form className="form" onSubmit={addProduct}>
       <div className="input-field">
         <label htmlFor="product">Product</label>
         <input
+          ref={nameInputRef}
           id="product"
           type="text"
           name="name"

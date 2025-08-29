@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "f780",
+      "name": "Water",
+      "amount": 1,
+      "checked": false
+    },
+    {
+      "id": "1815",
+      "name": "Bread",
+      "amount": 1,
+      "checked": false
+    },
+    {
+      "id": "086d",
+      "name": "eggs",
+      "amount": 20,
+      "checked": false
+    }
+  ]
+}
